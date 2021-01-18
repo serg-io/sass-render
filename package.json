@@ -1,0 +1,30 @@
+{
+  "name": "sass-render",
+  "version": "0.1.0",
+  "description": "Compile SASS to CSS.",
+  "license": "MIT",
+  "author": "Sergio Alcantara (https://github.com/serg-io)",
+  "homepage": "https://github.com/serg-io/sass-render",
+  "keywords": [
+    "sass",
+    "scss",
+    "render",
+    "litelement"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serg-io/sass-render.git"
+  },
+  "bugs": {
+    "url": "https://github.com/serg-io/sass-render/issues"
+  },
+  "bin": {
+    "sass-render": "./src/sass-render.js"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.1",
+    "command-line-args": "^5.1.1",
+    "command-line-usage": "^6.1.1",
+    "sass": "^1.32.4"
+  }
+}
